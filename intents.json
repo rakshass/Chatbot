@@ -1,0 +1,39 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 5 days old!", "5 days young!"]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Chatterbox.", "I'm Chatterbox!"]
+        },
+        {"tag": "building numbers",
+         "patterns": ["What is BN", "what is building number", "what do you mean by building number"],
+         "responses": ["BN or Building Number is the House Number you add to the Building Outline."]
+        },
+        {"tag": "hours",
+         "patterns": ["Till when are you available", "what are your working hours", "hours of operation"],
+         "responses": ["We are open 9am-6pm Monday-Friday!"]
+        },
+        {"tag": "BN Query",
+         "patterns": ["What to do if same BN, House Number, Building Number is present on two buildings, 2 buildings but with different postcodes?"],
+         "responses": ["We can add house numbers to the 2 buildings/entities if 2 different postcodes are present according to SOP."]
+        },
+        {"tag": "BN1 Query",
+         "patterns": ["How to add BN, Building Number, House Number in case of 1,2,3,4,5?"],
+         "responses": ["Add BN like 1-5 in the House number section."]
+        },
+        {"tag": "BN2 Query",
+         "patterns": ["How to add BN, Building Number, House Number in case of 200A,300B,400C,500D?"],
+         "responses": ["You cannot add BN in this case since characters exceeding more than 10 characters."]
+        }
+   ]
+}
