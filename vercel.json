@@ -1,18 +1,33 @@
+//{
+//  "version": 2,
+//  "builds": [
+//      {
+//          "src": "(*.*)",
+//          "use": "@vercel/node"
+//      }
+//  ],
+//  "routes": [
+//      {
+//          "src": "(.*)",
+//          "dest": "chatbot.py"
+//      }
+//  ]
+//  {
+//  "cleanUrls": true
+//}
+//}
 {
-  "version": 2,
-  "builds": [
-      {
-          "src": "(*.*)",
-          "use": "@vercel/node"
-      }
-  ],
-  "routes": [
-      {
-          "src": "(.*)",
-          "dest": "chatbot.py"
-      }
-  ]
-  {
-  "cleanUrls": true
-}
+    "version": 2,
+    "builds": [
+        {
+            "src": "./chatbot.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
 }
