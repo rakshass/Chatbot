@@ -1,9 +1,0 @@
-json
-pickle
-numpy
-
-nltk
-WordNetLemmatizer
-keras.models
-keras.optimizers
-keras.layers
