@@ -12,4 +12,7 @@
           "dest": "chatbot.py"
       }
   ]
+  {
+  "cleanUrls": true
+}
 }
