@@ -1,7 +1,7 @@
 random
 json
 pickle
-numpy as np
+numpy
 
 nltk
 WordNetLemmatizer
