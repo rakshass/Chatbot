@@ -1,7 +1,1 @@
-pickle
-numpy
-nltk
-nltk.stem
-WordNetLemmatizer
-keras.models
-load_model
+
