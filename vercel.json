@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "./chatbot.py",
+            "src": "/chatbot.py",
             "use": "@vercel/python"
         }
     ],
